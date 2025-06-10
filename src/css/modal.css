@@ -1,0 +1,148 @@
+.modal {
+  background: rgba(18, 18, 18, 0.4);
+  visibility: hidden;
+  position: fixed;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 1000;
+}
+.modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  width: 218px;
+  background-color: #bea69e;
+  transition: transform 0.3s ease;
+  transform: translateX(100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background: url(../img/modal/Rectangle-mob.png);
+  background-position: bottom;
+  background-repeat: no-repeat; */
+}
+.modal-image {
+  width: 329px;
+  height: 218px;
+}
+.modal-nav-container {
+  margin-top: 232px;
+  margin-left: 20px;
+}
+.modal-nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.modal-nav-list_item {
+}
+.modal-nav-list_link {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #121212;
+  transition: all 250ms;
+}
+
+.modal-nav-list_link:hover,
+.modal-nav-list_link:focus {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #121212;
+}
+.modal-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: all 250ms;
+}
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  transform: scale(1.05);
+}
+.modal-close-btn svg {
+  width: 32px;
+  height: 32px;
+  stroke: black;
+}
+
+.modal-svg {
+}
+.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal.is-open .modal-content {
+  transform: translateX(0);
+}
+@media screen and (min-width: 768px) {
+  .modal-content {
+    width: 480px;
+  }
+  .modal-image {
+    width: 476px;
+    height: 480px;
+  }
+  .modal-nav-container {
+    margin-top: 232px;
+    margin-left: 64px;
+  }
+  .modal-nav-list {
+    gap: 28px;
+  }
+  .modal-nav-list_item {
+  }
+  .modal-nav-list_link {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #121212;
+    transition: all 250ms;
+  }
+
+  .modal-nav-list_link:hover,
+  .modal-nav-list_link:focus {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #121212;
+  }
+  .modal-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 32px;
+    transition: all 250ms;
+  }
+  .modal-close-btn:hover,
+  .modal-close-btn:focus {
+    transform: scale(1.05);
+  }
+  .modal-close-btn svg {
+    width: 40px;
+    height: 40px;
+    stroke: black;
+  }
+
+  .modal-svg {
+  }
+  .is-open {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modal.is-open .modal-content {
+    transform: translateX(0);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .modal {
+    display: none;
+  }
+}
