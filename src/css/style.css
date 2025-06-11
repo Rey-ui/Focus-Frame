@@ -1,6 +1,7 @@
 @import url("./reset.css");
 @import url("./header.css");
 @import url("./modal.css");
+@import url("./hero.css");
 body {
   min-height: 100%;
   line-height: 1;
@@ -12,14 +13,22 @@ body {
     margin: 0 auto;*/
   /* display: flex;
   flex-direction: column;*/
-  position: relative;
+  /* position: relative; */
+  overflow-x: hidden;
 }
 .container {
-  margin: 0 auto;
   padding: 0 20px;
   max-width: 375px;
   height: 100%;
 }
+.hero {
+  background-image: url("../img/Graphic-mob.png");
+}
+/* @media (min-resolution: 192dpi) and (max-width: 767px) {
+  .hero {
+    background-image: url("../img/Graphics@2x.png");
+  }
+} */
 @media screen and (min-width: 768px) {
   .container {
     margin: 0 auto;
