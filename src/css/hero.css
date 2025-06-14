@@ -1,5 +1,6 @@
 .hero {
   padding-top: 95px;
+  padding-bottom: 75px;
 }
 .container {
   margin: 0 auto;
@@ -126,6 +127,7 @@
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 120px;
+    padding-bottom: 100px;
   }
   .hero-wrapper {
     padding-top: 64px;
@@ -240,6 +242,7 @@
 @media screen and (min-width: 1280px) {
   .hero {
     padding-top: 160px;
+    padding-bottom: 150px;
   }
   .hero-wrapper {
     padding-top: 80px;
