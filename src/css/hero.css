@@ -14,7 +14,6 @@
   padding-top: 40px;
   padding-right: 20px;
   padding-left: 20px;
-  max-width: 295px;
 }
 .hero-text {
   display: flex;
@@ -92,8 +91,13 @@
   background-color: #bea69e;
   /* padding: 12px; */
   stroke: #1d1d1d;
-  padding: 12px;
   fill: none;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
 }
 .hero-reviews_svg svg {
   stroke: none;
@@ -133,7 +137,6 @@
     padding-top: 64px;
     padding-right: 155px;
     padding-left: 32px;
-    max-width: 517px;
   }
 
   .hero-title {
@@ -204,8 +207,9 @@
     background-color: #bea69e;
     /* padding: 12px; */
     stroke: #1d1d1d;
-    padding: 12px;
     fill: none;
+    width: 50px;
+    height: 50px;
   }
   .hero-reviews_svg svg {
     stroke: none;
@@ -248,7 +252,6 @@
     padding-top: 80px;
     padding-right: 50px;
     padding-left: 50px;
-    max-width: 980px;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -322,7 +325,6 @@
     background-color: #bea69e;
     /* padding: 12px; */
     stroke: #1d1d1d;
-    padding: 12px;
     fill: none;
   }
   .hero-reviews_svg svg {
