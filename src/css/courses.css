@@ -119,6 +119,7 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    max-width: 342px;
   }
   .our-courses-list_label {
     display: flex;
@@ -165,5 +166,11 @@
   }
   .our-courses-title_text {
     max-width: 405px;
+  }
+  .our-courses-list {
+    flex-wrap: nowrap;
+  }
+  .our-courses-list_item {
+    max-width: 347px;
   }
 }

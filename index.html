@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
     <link rel="stylesheet" href="./src/css/style.css" />
     <title>Focus Frame</title>
   </head>
@@ -412,9 +417,145 @@
           />
         </div>
       </section>
+      <section class="reviews section">
+        <div class="container reviews-container">
+          <h2 class="reviews-title">Reviews</h2>
+          <ul class="reviews-list">
+            <li class="reviews-list_item">
+              <div class="reviews-list_content">
+                <div class="reviews-list-item_person">
+                  <img
+                    class="reviews-list-item_avatar"
+                    src="./src/img/reviews/user1.png"
+                    alt="avatar"
+                  />
+                  <div class="reviews-list-item_info">
+                    <h3 class="reviews-list-item_name">Abraham Baker</h3>
+                    <span class="reviews-list-item_label">Student</span>
+                  </div>
+                </div>
+                <img
+                  src="./src/img/reviews/stars.png"
+                  alt="raiting"
+                  class="reviews-list-item_raiting"
+                />
+              </div>
+              <p class="reviews-list_comment">
+                I am very pleased that I decided to enroll in photography
+                school. The teachers turned out to be very talented and
+                experienced professionals who share their knowledge and are
+                dedicated to their work. I was able to expand my skills and
+                discover my own style.
+              </p>
+            </li>
+            <li class="reviews-list_item reviews2-list_item">
+              <div class="reviews-list_content">
+                <div class="reviews-list-item_person">
+                  <img
+                    class="reviews-list-item_avatar"
+                    src="./src/img/reviews/user2.png"
+                    alt="avatar"
+                  />
+                  <div class="reviews-list-item_info">
+                    <h3 class="reviews-list-item_name">Amanda Lowery</h3>
+                    <span class="reviews-list-item_label">Student</span>
+                  </div>
+                </div>
+                <img
+                  src="./src/img/reviews/stars2.png"
+                  alt="raiting"
+                  class="reviews-list-item_raiting"
+                />
+              </div>
+              <p class="reviews-list_comment">
+                The courses at the photography school exceeded all my
+                expectations. I gained not only technical knowledge, but also
+                inspiration and motivation to reach new heights in my
+                creativity. Hands-on classes and workshops helped me understand
+                different styles of photography.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
-    <footer class=""></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-contacts-container">
+            <a href="#" class="footer-contacts_logo"
+              ><svg class="footer-contacts-logo_svg" width="127" height="20">
+                <use href="./src/img/svg/symbol-defs.svg#icon-logo"></use>
+              </svg>
+            </a>
+            <ul class="footer-contacts-list">
+              <li class="footer-contacts-item">
+                <a href="tel:+110001111111" class="footer-contacts_link"
+                  >UK: +38 066 543 8912</a
+                >
+              </li>
+              <li class="footer-contacts-item">
+                <a
+                  href="https://www.google.com/maps/place/Kyiv,+Ukraine"
+                  class="footer-contacts_link"
+                  target="_blank"
+                  >Ukraine, Kyiv</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-content_medias">
+            <ul class="footer-social-list">
+              <li class="footer-social_item">
+                <a href="#" class="footer-social_link">Instagram</a>
+              </li>
+              <li class="footer-social_item">
+                <a href="#" class="footer-social_link">Facebook</a>
+              </li>
+              <li class="footer-social_item">
+                <a href="#" class="footer-social_link">Youtube</a>
+              </li>
+            </ul>
+            <ul class="footer-nav-list">
+              <li class="footer-nav_item">
+                <a href="#about-us" class="footer-nav_link">About us</a>
+              </li>
+              <li class="footer-nav_item">
+                <a href="#our-courses" class="footer-nav_link">Our courses</a>
+              </li>
+              <li class="footer-nav_item">
+                <a href="#our-mentors" class="footer-nav_link">Our mentors</a>
+              </li>
+              <li class="footer-nav_item">
+                <a href="#reviews" class="footer-nav_link">Reviews</a>
+              </li>
+              <li class="footer-nav_item">
+                <a href="#contacts" class="footer-nav_link">contacts</a>
+              </li>
+            </ul>
+          </div>
+          <form class="footer-form">
+            <input
+              name="email"
+              type="email"
+              class="footer-form-input"
+              placeholder="Enter your email"
+            />
+            <button type="submit" class="footer-form-btn">Go</button>
+          </form>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-bottom_text">
+            Privacy Policy Public Offering Agreement
+          </p>
+          <p class="footer-bottom_text">
+            2023 Focus Frame
+            <span class="footer-bottom_text">© All rights reserved</span>
+          </p>
+        </div>
+      </div>
+    </footer>
     <div class="modal">
       <div class="modal-content">
         <button class="modal-close-btn">

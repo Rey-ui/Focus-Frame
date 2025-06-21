@@ -1,0 +1,121 @@
+.footer {
+  background-image: url("../img/Graphic-mob.png");
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.container {
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.footer-contacts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer-contacts_logo {
+  margin-bottom: 16px;
+}
+.footer-contacts-logo_svg {
+}
+.footer-contacts-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.footer-contacts-list:first-child {
+  text-transform: uppercase;
+}
+.footer-contacts-item {
+  font-size: 14px;
+  line-height: 129%;
+}
+.footer-contacts_link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+}
+.footer-contacts_svg {
+}
+.footer-content_medias {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  margin-bottom: 75px;
+}
+.footer-social-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.footer-social_item {
+}
+.footer-social_link {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.footer-nav_item {
+}
+.footer-nav_link {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.footer-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer-form-input {
+  border-radius: 12px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  padding: 20px 18px;
+  background-color: #ffffff;
+}
+.footer-form-input::placeholder {
+  opacity: 0.7;
+}
+.footer-form-btn {
+  width: 60px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  padding: 18px 16px;
+  border-radius: 12px;
+  background: #1d1d1d;
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  gap: 71px;
+}
+.footer-bottom_text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+}
+.footer-bottom_text span {
+  white-space: nowrap;
+}
